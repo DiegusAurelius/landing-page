@@ -1,3 +1,7 @@
-# Project: Landing Page
+![The Odin Project](./img/favicon.svg)
 
-## Foundations Course
+# The Odin Project
+
+## Project: Landing Page
+
+### Foundations Course
