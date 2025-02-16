@@ -59,8 +59,23 @@ h6 {
   text-wrap: balance;
 }
 
+nav {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
 header {
   background-color: #1f2937;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 25px 0;
 }
 
 h1 {
@@ -73,19 +88,7 @@ h2 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
-}
-
-button {
-  background-color: #3c82f6;
-  color: white;
-  border-radius: 0.4em;
-  padding: 0.3em 2em;
-  border: none;
-  -webkit-appearance: none;
-  appearance: none;
-  box-shadow: none;
-  cursor: pointer;
-  font-weight: 800;
+  text-align: center;
 }
 
 ul {
@@ -101,9 +104,63 @@ ul a {
   text-decoration: none;
 }
 
-.info p {
-  font-size: 18px;
-  color: #e5e7eb;
+button {
+  background-color: #3c82f6;
+  color: white;
+  border-radius: 0.4em;
+  padding: 0.3em 2em;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+blockquote p {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: right;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0 90px;
+}
+
+.content div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  width: 150px;
+}
+
+.content div img {
+  border: 0.2em solid #3c82f6;
+  border-radius: 0.4em;
 }
 
 .logo {
@@ -113,18 +170,41 @@ ul a {
   margin-right: auto;
 }
 
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  padding: 40px 0 60px;
+}
+
+.info {
+  flex-basis: 50%;
+}
+
+.info p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 0.666em;
+}
+
 .quote {
   background-color: #e5e7eb;
 }
 
-blockquote {
-  font-size: 36px;
-  font-weight: 300;
-  font-style: italic;
-  color: #1f2937;
+.call-to-action {
+  margin: 50px 0;
 }
 
 .cta-box {
   background-color: #3c82f6;
   color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.4em;
+  padding: 50px 0;
+}
+
+.cta-box button {
+  border: 0.1em solid white;
 }
