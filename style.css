@@ -69,6 +69,25 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+button {
+  background-color: #3c82f6;
+  color: white;
+  border-radius: 0.4em;
+  padding: 0.3em 2em;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  cursor: pointer;
+  font-weight: 800;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -79,6 +98,7 @@ ul {
 
 ul a {
   color: #e5e7eb;
+  text-decoration: none;
 }
 
 .info p {
@@ -102,4 +122,9 @@ blockquote {
   font-weight: 300;
   font-style: italic;
   color: #1f2937;
+}
+
+.cta-box {
+  background-color: #3c82f6;
+  color: #fff;
 }
