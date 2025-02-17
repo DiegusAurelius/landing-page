@@ -24,3 +24,7 @@ body {
 button {
   font: inherit;
 }
+
+.full-width {
+  width: 100%;
+}
