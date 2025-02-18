@@ -27,4 +27,15 @@ button {
 
 .full-width {
   width: 100%;
+  padding: 5em 2em;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+footer {
+  padding: 2em 0;
+  text-align: center;
 }
