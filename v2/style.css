@@ -41,8 +41,7 @@ ul {
   align-items: center;
 }
 
-/* logo */
-ul li:first-of-type {
+.logo {
   margin-right: auto;
   font-size: 24px;
   font-weight: 800;
