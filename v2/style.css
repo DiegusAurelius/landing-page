@@ -25,7 +25,26 @@ button {
   font: inherit;
 }
 
-.full-width {
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2em;
+  padding: 0;
+}
+
+ul li:first-of-type {
+  margin-right: auto;
+}
+
+header {
+  padding: 1em 0;
+}
+
+main section {
   width: 100%;
   padding: 5em 2em;
 }
