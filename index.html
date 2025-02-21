@@ -3,109 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Diegus Aurelius" />
-    <meta
-      name="description"
-      content="Landing page project - The Odin Project"
-    />
-    <meta property="og:title" content="Landing Page" />
-    <meta
-      property="og:description"
-      content="Landing page project - The Odin Project"
-    />
-    <meta property="og:image" content="/some-image.png" />
-    <meta
-      property="og:url"
-      content="https://diegusaurelius.github.io/odin-landing-page/"
-    />
-    <meta property="og:site_name" content="Landing Page" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image:alt" content="image description" />
+    <title>Landing Page - The Odin Project</title>
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="icon"
-      type="image/svg+xml"
-      sizes="any"
       href="./img/favicon.svg"
+      sizes="any"
+      type="image/svg+xml"
     />
-    <title>Landing Page</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li class="logo">Header Logo</li>
-          <li><a href="#">Link one</a></li>
-          <li><a href="#">Link two</a></li>
-          <li><a href="#">Link three</a></li>
-        </ul>
-      </nav>
+    <header class="header">
       <div class="container">
-        <div class="hero">
-          <div class="info">
-            <h1>This website is awesome</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-              beatae quas corporis quidem possimus modi, a maiores ex
-              consectetur ad veritatis.
-            </p>
-            <button>Sign up</button>
-          </div>
-          <img src="https://placehold.co/450x200" alt="Random image" />
-        </div>
+        <nav>
+          <ul class="menu">
+            <li class="logo"><a href="#">Landing Page</a></li>
+            <li><a href="#">One</a></li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main>
-      <div class="container">
-        <h2>Some random information</h2>
-        <div class="content">
-          <div>
-            <img src="https://placehold.co/150" alt="Some random image" />
-            <p>This is some subtext under an illustration or image</p>
-          </div>
-          <div>
-            <img src="https://placehold.co/150" alt="Some random image" />
-            <p>This is some subtext under an illustration or image</p>
-          </div>
-          <div>
-            <img src="https://placehold.co/150" alt="Some random image" />
-            <p>This is some subtext under an illustration or image</p>
-          </div>
-          <div>
-            <img src="https://placehold.co/150" alt="Some random image" />
-            <p>This is some subtext under an illustration or image</p>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <div class="quote">
-      <div class="container">
-        <blockquote cite="https://www.imdb.com/title/tt1772925/">
-          Once you decide on your occupation, you must immerse yourself in your
-          work. You have to fall in love with your work. Never complain about
-          your job. You must dedicate your life to mastering your skill. That's
-          the secret of success and is the key to being regarded honorably.
-          <p class="cite">-Jiro Ono, <cite>Jiro Dreams of Sushi</cite></p>
-        </blockquote>
-      </div>
-    </div>
-    <div class="call-to-action">
-      <div class="container">
-        <div class="cta-box">
-          <div class="cta-copy">
-            <h3>Call to action it's time</h3>
+      <section class="hero">
+        <div class="container hero-info">
+          <div class="info">
+            <h1>This website is awesome</h1>
             <p>
-              Sign up for our product by clicking that button right over there!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              quibusdam beatae optio enim officia praesentiumt.
             </p>
+            <button>Sign up</button>
           </div>
-          <button>Sign up</button>
+          <img src="https://placehold.co/450x200" alt="Place holder" />
         </div>
-      </div>
-    </div>
-
-    <footer>
-      <p>Copyright &copy; DiegusAurelius</p>
+      </section>
+      <section class="content">
+        <div class="container">
+          <h2>Some random information.</h2>
+          <div class="panels">
+            <div>
+              <img src="https://placehold.co/150x150" alt="Place holder" />
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+              <img src="https://placehold.co/150x150" alt="Place holder" />
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+              <img src="https://placehold.co/150x150" alt="Place holder" />
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+              <img src="https://placehold.co/150x150" alt="Place holder" />
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quote">
+        <div class="container">
+          <blockquote cite="https://www.huxley.net/bnw/four.html">
+            <p>
+              Words can be like X-rays, if you use them properly—they'll go
+              through anything. You read and you're pierced.
+            </p>
+          </blockquote>
+          <p class="cite">—Aldous Huxley, <cite>Brave New World</cite></p>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="container cta-box">
+          <div class="cta-info">
+            <p>
+              <span class="title">Call to action! It's time!</span>Lorem ipsum
+              dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button>Sign up</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>💀 DiegusAurelius</p>
     </footer>
   </body>
 </html>
