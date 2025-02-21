@@ -49,7 +49,7 @@ ul {
 }
 
 header {
-  padding: 1em 0;
+  padding: 1em;
   background-color: #1f2937;
 }
 
@@ -66,17 +66,31 @@ main section {
 
 .hero-info {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 2em;
+}
+
+.info {
+  flex: 1;
 }
 
 .info p {
   margin-bottom: 0.5em;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .panels {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: space-around;
+  gap: 2em;
 }
 
 .panels div {
@@ -116,6 +130,33 @@ h2 {
   font-weight: 900;
   text-align: center;
   margin-bottom: 1.5em;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  border-radius: 0.5em;
+  width: 100%;
+  padding-block: 4em;
+}
+
+.cta-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #f9faf8;
+  padding-inline: 1em;
+  gap: 2em;
+}
+
+.cta-info button {
+  border: 0.1em solid white;
+}
+
+.cta-box .title {
+  font-weight: 700;
+  display: block;
+  font-size: 1.2em;
 }
 
 .container {
