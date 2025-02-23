@@ -79,9 +79,18 @@ blockquote {
 
 footer {
   padding: 2em 0;
-  text-align: center;
   background-color: #1f2937;
   color: #f9faf8;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 .logo {
@@ -165,9 +174,4 @@ footer {
   font-weight: 700;
   display: block;
   font-size: 1.2em;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 900px;
 }
